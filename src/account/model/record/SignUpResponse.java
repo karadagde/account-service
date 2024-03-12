@@ -1,0 +1,1 @@
+package account.model.record;import java.util.List;public record SignUpResponse(Long id, String name, String lastname,                             String email, List<String> roles) {}
